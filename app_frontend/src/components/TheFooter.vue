@@ -1,8 +1,8 @@
 <template>
   <footer class="footer bg-dark">
     <div class="container text-white">
-      <div class="row ">
-        <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <h5 class="text-center">Acerca de Support Ficct
             <img src="../assets/support_logo.svg" alt="SupportFicct" width="32px" height="32px">
           </h5>
@@ -12,15 +12,15 @@
           </p>
 
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 ">
-          <h5 class="text-center">Enlaces utiles</h5>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <h5 class="text-center">Enlaces &uacute;tiles</h5>
           <ul>
             <li><a href="/">Inicio</a></li>
             <li><a href="/acerca-de">Acerca de</a></li>
             <li><a target="_blank" href="http://supportficct.somee.com/">P&aacute;gina oficial</a></li>
           </ul>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 social">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <h5 class="text-center">Contacto</h5>
           <ul>
             <li>
@@ -58,24 +58,27 @@
 </script>
 
 <style>
+  .footer {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 0;
+  }
+
   ul {
     list-style: none;
   }
 
-  ul a {
+  a {
     color: white;
   }
 
-  ul a:hover {
-    color: white;
-    text-decoration: none;
-  }
-
-  .social a {
-    color: white;
-  }
-
-  .social a :hover {
+  a:hover {
     color: white;
     text-decoration: none;
   }

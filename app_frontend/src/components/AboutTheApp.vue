@@ -33,7 +33,7 @@
 
     <article class="row mt-5 align-items-center">
       <div class="col-md-7">
-        <img src="../assets/classes_selector.png" alt="Classes Selector" width="100%" class="description-img">
+        <img src="../assets/classes_selector.png" alt="Classes Selector" class="description-img">
       </div>
       <div class="col-md-5">
         <h2>Selector de materias</h2>
@@ -53,13 +53,13 @@
         </p>
       </div>
       <div class="col-md-7">
-        <img src="../assets/groups_selector.png" alt="Groups Selector" width="100%" class="description-img">
+        <img src="../assets/groups_selector.png" alt="Groups Selector" class="description-img">
       </div>
     </article>
 
     <article class="row mt-5 align-items-center">
       <div class="col-md-7">
-        <img src="../assets/docs_generated.png" alt="Docs Generated" width="100%" class="description-img">
+        <img src="../assets/docs_generated.png" alt="Docs Generated" class="description-img">
       </div>
       <div class="col-md-5">
         <h2>Documentos en PDF</h2>
@@ -129,11 +129,12 @@
 
 <style scoped>
   .img-logo {
-    max-width: 400px;
+    max-width: 100%;
   }
 
   .description-img {
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
   }
 </style>
