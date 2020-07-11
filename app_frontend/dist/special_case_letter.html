@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+
+  <title>
+    Carta para caso especial
+  </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css', _external=True) }}" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"/>
+  <style>
+    .footer {
+      background-color: #f5f5f5;
+    }
+
+    table, th, tr, td, p {
+      font-size: 1.3rem;
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column h-100" cz-shortcut-listen="true">
+<main role="main" class="flex-shrink-0">
+  <div class="row content-data">
+    <div class="col-lg-12">
+      <p class="text-right">{{ city_with_date }}</p>
+      <p>{{ career.director }}</p>
+      <p>Jefe/a de carrera de {{ career.name }}</p>
+      <p>Presente .-</p>
+
+      <h1 class="text-center mt-3" style="font-size: 2rem;">
+        <strong>Ref. Solicitud de caso especial</strong>
+      </h1>
+
+      <p class="mt-5">
+        A tiempo de saludarlo/a muy atentamente y felicitarlo/a por la labor que
+        realiza como jefe/a de carrera, me dirijo a usted mediante la presente
+        para solicitar el procesamiento de mi caso especial para las
+        siguientes materias:
+      </p>
+      <div class="text-center mt-5">
+        <table class="table">
+          <thead>
+          <tr>
+            <th scope="col">Materia</th>
+            <th scope="col">Sigla</th>
+            <th scope="col">Grupo</th>
+          </tr>
+          </thead>
+          <tbody>
+          {% for class_data in special_case_classes %}
+            <tr>
+              <td>{{ class_data["name"] }}</td>
+              <td>{{ class_data["initials"] }}</td>
+              <td>{{ class_data["group"] }}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mt-5">
+        Sin otro particular, atte.
+      </p>
+      <div class="text-center mt-5">
+        <p><strong>Univ.</strong> {{ student.name }}</p>
+        <p><strong>Reg.</strong> {{ student.code }}</p>
+        <p><strong>CI.</strong> {{ student.dni }}</p>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer mt-auto py-3">
+  <div class="row">
+    <div class="col-lg-12">
+      <img src="{{ url_for('static', filename='images/support_logo.svg',_external=True) }}" width="48px" height="48px"
+           alt="SupportFicct">
+      <strong>#SupportFicct</strong>
+      <p>
+        <small>
+          Este documento ha sido generado con <strong><i>Support Ficct generador de documentos para casos especiales</i></strong>
+        </small>
+      </p>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>

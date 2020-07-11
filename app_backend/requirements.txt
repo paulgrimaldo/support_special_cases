@@ -1,0 +1,8 @@
+flask
+flask-wtf
+flask-testing
+blinker
+flask-login
+flask-cors
+pdfkit
+gunicorn

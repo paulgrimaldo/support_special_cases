@@ -1,0 +1,864 @@
+{
+  "careers": [
+    {
+      "key": "systems",
+      "name": "Ingeniería en Sistemas",
+      "director": "Ing. Katime Esther Gutierrez Bruno",
+      "classes": {
+        "semester1": [
+          {
+            "name": "Introducción a la informatica",
+            "initials": "INF110",
+            "elective": false
+          },
+          {
+            "name": "Física I",
+            "initials": "FIS100",
+            "elective": false
+          },
+          {
+            "name": "Estructuras discretas",
+            "initials": "INF119",
+            "elective": false
+          },
+          {
+            "name": "Calculo I",
+            "initials": "MAT101",
+            "elective": false
+          },
+          {
+            "name": "Ingles Técnico I",
+            "initials": "LIN100",
+            "elective": false
+          }
+        ],
+        "semester2": [
+          {
+            "name": "Programación I",
+            "initials": "INF120",
+            "elective": false
+          },
+          {
+            "name": "Física II",
+            "initials": "FIS102",
+            "elective": false
+          },
+          {
+            "name": "Álgebra Lineal",
+            "initials": "MAT103",
+            "elective": false
+          },
+          {
+            "name": "Calculo II",
+            "initials": "MAT102",
+            "elective": false
+          },
+          {
+            "name": "Ingles Técnico II",
+            "initials": "LIN101",
+            "elective": false
+          }
+        ],
+        "semester3": [
+          {
+            "name": "Programación II",
+            "initials": "INF210",
+            "elective": false
+          },
+          {
+            "name": "Física III",
+            "initials": "FIS200",
+            "elective": false
+          },
+          {
+            "name": "Adminsitración",
+            "initials": "ADM100",
+            "elective": false
+          },
+          {
+            "name": "Ecuaciones Diferenciales",
+            "initials": "MAT207",
+            "elective": false
+          },
+          {
+            "name": "Arquitectura de Computadoras",
+            "initials": "INF211",
+            "elective": false
+          }
+        ],
+        "semester4": [
+          {
+            "name": "Estructura de Datos I",
+            "initials": "INF220",
+            "elective": false
+          },
+          {
+            "name": "Contabilidad",
+            "initials": "ADM200",
+            "elective": false
+          },
+          {
+            "name": "Programación Ensamblador",
+            "initials": "INF221",
+            "elective": false
+          },
+          {
+            "name": "Probabilidades y Estadistica I",
+            "initials": "MAT202",
+            "elective": false
+          },
+          {
+            "name": "Métodos Numéricos",
+            "initials": "MAT205",
+            "elective": false
+          }
+        ],
+        "semester5": [
+          {
+            "name": "Organización y métodos",
+            "initials": "ADM330",
+            "elective": false
+          },
+          {
+            "name": "Economía para la gestión",
+            "initials": "ECO300",
+            "elective": false
+          },
+          {
+            "name": "Estructuras de datos II",
+            "initials": "INF310",
+            "elective": false
+          },
+          {
+            "name": "Base de datos I",
+            "initials": "INF312",
+            "elective": false
+          },
+          {
+            "name": "Probabilidades y estadística II",
+            "initials": "MAT302",
+            "elective": false
+          },
+          {
+            "name": "Administración de recursos humanos",
+            "initials": "ELC001",
+            "elective": true
+          },
+          {
+            "name": "Costos y presupuestos",
+            "initials": "ELC002",
+            "elective": true
+          }
+        ],
+        "semester6": [
+          {
+            "name": "Finanzas para la empresa",
+            "initials": "ADM320",
+            "elective": false
+          },
+          {
+            "name": "Sistemas operativos I",
+            "initials": "INF323",
+            "elective": false
+          },
+          {
+            "name": "Sistemas de información",
+            "initials": "INF342",
+            "elective": false
+          },
+          {
+            "name": "Base de datos II",
+            "initials": "INF322",
+            "elective": false
+          },
+          {
+            "name": "Investigación operativa I",
+            "initials": "MAT329",
+            "elective": false
+          },
+          {
+            "name": "Producción y marketing",
+            "initials": "ELC003",
+            "elective": true
+          },
+          {
+            "name": "Reingeniería",
+            "initials": "ELC004",
+            "elective": true
+          }
+        ],
+        "semester7": [
+          {
+            "name": "Sistemas operativos II",
+            "initials": "INF413",
+            "elective": false
+          },
+          {
+            "name": "Sistemas de información II",
+            "initials": "INF412",
+            "elective": false
+          },
+          {
+            "name": "Redes I",
+            "initials": "INF433",
+            "elective": false
+          },
+          {
+            "name": "Sistemas para el soporte a la toma de decisiones",
+            "initials": "INF432",
+            "elective": false
+          },
+          {
+            "name": "Investigación operativa II",
+            "initials": "MAT419",
+            "elective": false
+          },
+          {
+            "name": "Ingeniería de la calidad",
+            "initials": "ELC005",
+            "elective": true
+          },
+          {
+            "name": "Benchmarking",
+            "initials": "ELC006",
+            "elective": true
+          }
+        ],
+        "semester8": [
+          {
+            "name": "Preparación y evaluación de proyectos",
+            "initials": "ECO449",
+            "elective": false
+          },
+          {
+            "name": "Ingeniería de software I",
+            "initials": "INF422",
+            "elective": false
+          },
+          {
+            "name": "Redes II",
+            "initials": "INF423",
+            "elective": false
+          },
+          {
+            "name": "Sistemas de información geográfica",
+            "initials": "INF442",
+            "elective": false
+          },
+          {
+            "name": "Auditoria informática",
+            "initials": "INF462",
+            "elective": false
+          },
+          {
+            "name": "Introducción a la macroeconomia",
+            "initials": "ELC007",
+            "elective": true
+          },
+          {
+            "name": "Legislación en ciencias de la computación",
+            "initials": "ELC008",
+            "elective": true
+          }
+        ],
+        "semester9": [
+          {
+            "name": "Taller de grado I",
+            "initials": "INF511",
+            "elective": false
+          },
+          {
+            "name": "Ingeniería de software II",
+            "initials": "INF512",
+            "elective": false
+          },
+          {
+            "name": "Tecnología Web",
+            "initials": "INF513",
+            "elective": false
+          },
+          {
+            "name": "Arquitectura de software",
+            "initials": "INF552",
+            "elective": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "informatics",
+      "name": "Ingeniería Informática",
+      "director": "Ing. Modesto Franklin Calderon",
+      "classes": {
+        "semester1": [
+          {
+            "name": "Introducción a la informatica",
+            "initials": "INF110",
+            "elective": false
+          },
+          {
+            "name": "Física I",
+            "initials": "FIS100",
+            "elective": false
+          },
+          {
+            "name": "Estructuras discretas",
+            "initials": "INF119",
+            "elective": false
+          },
+          {
+            "name": "Calculo I",
+            "initials": "MAT101",
+            "elective": false
+          },
+          {
+            "name": "Ingles Técnico I",
+            "initials": "LIN100",
+            "elective": false
+          }
+        ],
+        "semester2": [
+          {
+            "name": "Programación I",
+            "initials": "INF120",
+            "elective": false
+          },
+          {
+            "name": "Física II",
+            "initials": "FIS102",
+            "elective": false
+          },
+          {
+            "name": "Álgebra Lineal",
+            "initials": "MAT103",
+            "elective": false
+          },
+          {
+            "name": "Calculo II",
+            "initials": "MAT102",
+            "elective": false
+          },
+          {
+            "name": "Ingles Técnico II",
+            "initials": "LIN101",
+            "elective": false
+          }
+        ],
+        "semester3": [
+          {
+            "name": "Programación II",
+            "initials": "INF210",
+            "elective": false
+          },
+          {
+            "name": "Física III",
+            "initials": "FIS200",
+            "elective": false
+          },
+          {
+            "name": "Adminsitración",
+            "initials": "ADM100",
+            "elective": false
+          },
+          {
+            "name": "Ecuaciones Diferenciales",
+            "initials": "MAT207",
+            "elective": false
+          },
+          {
+            "name": "Arquitectura de Computadoras",
+            "initials": "INF211",
+            "elective": false
+          }
+        ],
+        "semester4": [
+          {
+            "name": "Estructura de Datos I",
+            "initials": "INF220",
+            "elective": false
+          },
+          {
+            "name": "Contabilidad",
+            "initials": "ADM200",
+            "elective": false
+          },
+          {
+            "name": "Programación Ensamblador",
+            "initials": "INF221",
+            "elective": false
+          },
+          {
+            "name": "Probabilidades y Estadistica I",
+            "initials": "MAT202",
+            "elective": false
+          },
+          {
+            "name": "Métodos Numéricos",
+            "initials": "MAT205",
+            "elective": false
+          }
+        ],
+        "semester5": [
+          {
+            "name": "Organización y métodos",
+            "initials": "ADM330",
+            "elective": false
+          },
+          {
+            "name": "Economía para la gestión",
+            "initials": "ECO300",
+            "elective": false
+          },
+          {
+            "name": "Estructuras de datos II",
+            "initials": "INF310",
+            "elective": false
+          },
+          {
+            "name": "Base de datos I",
+            "initials": "INF312",
+            "elective": false
+          },
+          {
+            "name": "Probabilidades y estadística II",
+            "initials": "MAT302",
+            "elective": false
+          },
+          {
+            "name": "Modelado y simulación de sistemas",
+            "initials": "ELC101",
+            "elective": true
+          },
+          {
+            "name": "Programación gráfica",
+            "initials": "ELC102",
+            "elective": true
+          }
+        ],
+        "semester6": [
+          {
+            "name": "Finanzas para la empresa",
+            "initials": "ADM320",
+            "elective": false
+          },
+          {
+            "name": "Sistemas operativos I",
+            "initials": "INF323",
+            "elective": false
+          },
+          {
+            "name": "Sistemas de información",
+            "initials": "INF342",
+            "elective": false
+          },
+          {
+            "name": "Base de datos II",
+            "initials": "INF322",
+            "elective": false
+          },
+          {
+            "name": "Investigación operativa I",
+            "initials": "MAT329",
+            "elective": false
+          },
+          {
+            "name": "Tópicos avanzados de programación",
+            "initials": "ELC103",
+            "elective": true
+          },
+          {
+            "name": "Programación de aplicaciones en tiempo real",
+            "initials": "ELC104",
+            "elective": true
+          }
+        ],
+        "semester7": [
+          {
+            "name": "Sistemas operativos II",
+            "initials": "INF413",
+            "elective": false
+          },
+          {
+            "name": "Sistemas de información II",
+            "initials": "INF412",
+            "elective": false
+          },
+          {
+            "name": "Redes I",
+            "initials": "INF433",
+            "elective": false
+          },
+          {
+            "name": "Sistemas para el soporte a la toma de decisiones",
+            "initials": "INF432",
+            "elective": false
+          },
+          {
+            "name": "Investigación operativa II",
+            "initials": "MAT419",
+            "elective": false
+          },
+          {
+            "name": "Sistemas distribuidos",
+            "initials": "ELC105",
+            "elective": true
+          },
+          {
+            "name": "Interacción hombre-computador",
+            "initials": "ELC106",
+            "elective": true
+          }
+        ],
+        "semester8": [
+          {
+            "name": "Preparación y evaluación de proyectos",
+            "initials": "ECO449",
+            "elective": false
+          },
+          {
+            "name": "Ingeniería de software I",
+            "initials": "INF422",
+            "elective": false
+          },
+          {
+            "name": "Redes II",
+            "initials": "INF423",
+            "elective": false
+          },
+          {
+            "name": "Sistemas de información geográfica",
+            "initials": "INF442",
+            "elective": false
+          },
+          {
+            "name": "Auditoria informática",
+            "initials": "INF462",
+            "elective": false
+          },
+          {
+            "name": "Criptografía y seguridad",
+            "initials": "ELC107",
+            "elective": true
+          },
+          {
+            "name": "Control y automatización",
+            "initials": "ELC108",
+            "elective": true
+          }
+        ],
+        "semester9": [
+          {
+            "name": "Taller de grado I",
+            "initials": "INF511",
+            "elective": false
+          },
+          {
+            "name": "Ingeniería de software II",
+            "initials": "INF512",
+            "elective": false
+          },
+          {
+            "name": "Tecnología Web",
+            "initials": "INF513",
+            "elective": false
+          },
+          {
+            "name": "Arquitectura de software",
+            "initials": "INF552",
+            "elective": false
+          }
+        ]
+      }
+    },
+    {
+      "key": "network",
+      "name": "Ingeniería en Redes y Telecomunicaciones",
+      "director": "Ing. Victor Fernando Monroy Dipp",
+      "classes": {
+        "semester1": [
+          {
+            "name": "Introducción a la informatica",
+            "initials": "INF110",
+            "elective": false
+          },
+          {
+            "name": "Física I",
+            "initials": "FIS100",
+            "elective": false
+          },
+          {
+            "name": "Estructuras discretas",
+            "initials": "INF119",
+            "elective": false
+          },
+          {
+            "name": "Calculo I",
+            "initials": "MAT101",
+            "elective": false
+          },
+          {
+            "name": "Ingles Técnico I",
+            "initials": "LIN100",
+            "elective": false
+          }
+        ],
+        "semester2": [
+          {
+            "name": "Programación I",
+            "initials": "INF120",
+            "elective": false
+          },
+          {
+            "name": "Física II",
+            "initials": "FIS102",
+            "elective": false
+          },
+          {
+            "name": "Álgebra Lineal",
+            "initials": "MAT103",
+            "elective": false
+          },
+          {
+            "name": "Calculo II",
+            "initials": "MAT102",
+            "elective": false
+          },
+          {
+            "name": "Ingles Técnico II",
+            "initials": "LIN101",
+            "elective": false
+          }
+        ],
+        "semester3": [
+          {
+            "name": "Programación II",
+            "initials": "INF210",
+            "elective": false
+          },
+          {
+            "name": "Teoría de campos",
+            "initials": "ELT241",
+            "elective": false
+          },
+          {
+            "name": "Adminsitración",
+            "initials": "ADM100",
+            "elective": false
+          },
+          {
+            "name": "Ecuaciones Diferenciales",
+            "initials": "MAT207",
+            "elective": false
+          },
+          {
+            "name": "Arquitectura de Computadoras",
+            "initials": "INF211",
+            "elective": false
+          }
+        ],
+        "semester4": [
+          {
+            "name": "Estructura de Datos I",
+            "initials": "INF220",
+            "elective": false
+          },
+          {
+            "name": "Análisis de circuitos electrónicos",
+            "initials": "RDS220",
+            "elective": false
+          },
+          {
+            "name": "Programación Ensamblador",
+            "initials": "INF221",
+            "elective": false
+          },
+          {
+            "name": "Probabilidades y Estadistica I",
+            "initials": "MAT202",
+            "elective": false
+          },
+          {
+            "name": "Métodos Numéricos",
+            "initials": "MAT205",
+            "elective": false
+          }
+        ],
+        "semester5": [
+          {
+            "name": "Sistemas lógicos y digitales I",
+            "initials": "ELT352",
+            "elective": false
+          },
+          {
+            "name": "Señales y sistemas",
+            "initials": "ELT354",
+            "elective": false
+          },
+          {
+            "name": "Electronica aplicada a redes",
+            "initials": "RDS310",
+            "elective": false
+          },
+          {
+            "name": "Base de datos I",
+            "initials": "INF312",
+            "elective": false
+          },
+          {
+            "name": "Probabilidades y estadística II",
+            "initials": "MAT302",
+            "elective": false
+          },
+          {
+            "name": "Diseño de circuitos integrados",
+            "initials": "ELC201",
+            "elective": true
+          },
+          {
+            "name": "Instrumentación",
+            "initials": "ELC202",
+            "elective": true
+          }
+        ],
+        "semester6": [
+          {
+            "name": "Sistemas lógicos y digitales II",
+            "initials": "ELT362",
+            "elective": false
+          },
+          {
+            "name": "Sistemas operativos I",
+            "initials": "INF323",
+            "elective": false
+          },
+          {
+            "name": "Interpretación de sistemas y señales",
+            "initials": "RDS320",
+            "elective": false
+          },
+          {
+            "name": "Base de datos II",
+            "initials": "INF322",
+            "elective": false
+          },
+          {
+            "name": "Investigación operativa I",
+            "initials": "MAT329",
+            "elective": false
+          },
+          {
+            "name": "Sistemas de comunicación SCADA",
+            "initials": "ELC203",
+            "elective": true
+          },
+          {
+            "name": "Televisión digital",
+            "initials": "ELC204",
+            "elective": true
+          }
+        ],
+        "semester7": [
+          {
+            "name": "Sistemas operativos II",
+            "initials": "INF413",
+            "elective": false
+          },
+          {
+            "name": "Sistemas de comunicación I",
+            "initials": "ELT374",
+            "elective": false
+          },
+          {
+            "name": "Redes I",
+            "initials": "INF433",
+            "elective": false
+          },
+          {
+            "name": "Aplicaciones con microprocesadores",
+            "initials": "RDS410",
+            "elective": false
+          },
+          {
+            "name": "Investigación operativa II",
+            "initials": "MAT419",
+            "elective": false
+          },
+          {
+            "name": "Domótica",
+            "initials": "ELC205",
+            "elective": true
+          },
+          {
+            "name": "Lineas y transmisión de antes",
+            "initials": "ELC206",
+            "elective": true
+          }
+        ],
+        "semester8": [
+          {
+            "name": "Preparación y evaluación de proyectos",
+            "initials": "ECO449",
+            "elective": false
+          },
+          {
+            "name": "Sistemas de comunicación II",
+            "initials": "ELT384",
+            "elective": false
+          },
+          {
+            "name": "Redes II",
+            "initials": "INF423",
+            "elective": false
+          },
+          {
+            "name": "Legislación en redes y comunicaciones",
+            "initials": "RDS429",
+            "elective": false
+          },
+          {
+            "name": "Taller de análisis y diseño de redes",
+            "initials": "RDS421",
+            "elective": false
+          },
+          {
+            "name": "Ténicas para presentación para ingeniería",
+            "initials": "ELC207",
+            "elective": true
+          },
+          {
+            "name": "Redes ADHOC",
+            "initials": "ELC208",
+            "elective": true
+          }
+        ],
+        "semester9": [
+          {
+            "name": "Taller de grado I",
+            "initials": "INF511",
+            "elective": false
+          },
+          {
+            "name": "Gestión y administración de redes",
+            "initials": "RDS511",
+            "elective": false
+          },
+          {
+            "name": "Tecnología Web",
+            "initials": "INF513",
+            "elective": false
+          },
+          {
+            "name": "Redes inalambricas y comunicaciones móviles",
+            "initials": "RDS512",
+            "elective": false
+          },
+          {
+            "name": "Seguridad en redes y transmisión de datos",
+            "initials": "RDS519",
+            "elective": false
+          }
+        ]
+      }
+    }
+  ]
+}
