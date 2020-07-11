@@ -93,11 +93,15 @@
           </div>
         </div>
       </div>
-      <app-button @click="confirmStudentDetails" style="float: right;">
+      <app-button @click="onConfirmStudentDetails" style="float: right;">
         Siguiente
         <i class="fas fa-arrow-right"></i>
       </app-button>
     </div>
+    <toast-message
+      :id="'student-detail-error'"
+      :content="'Rellene los campos con sus datos para continuar'"
+    ></toast-message>
   </section>
 </template>
 
@@ -107,7 +111,8 @@
   export default {
     data() {
       return {
-        disableEditCareerDirector: true
+        disableEditCareerDirector: true,
+        showToastError: false
       };
     },
     computed: {
@@ -119,10 +124,28 @@
       onClickEditCareerDirector: function () {
         this.disableEditCareerDirector = !this.disableEditCareerDirector;
       },
+      onConfirmStudentDetails: function () {
+        const isValidName = this.student.name.trim() !== null && this.student.name.trim() !== '';
+        const isValidCode = this.student.code.trim() !== null && this.student.code.trim() !== '';
+        const isValidDni = this.student.dni.trim() !== null && this.student.dni.trim() !== '';
+        const isValidPhone = this.student.phone.trim() !== null && this.student.phone.trim() !== '';
+
+        if (isValidName && isValidCode && isValidDni && isValidPhone) {
+          this.confirmStudentDetails();
+          return;
+        }
+
+        this.showStudentDetailsError();
+      },
+      showStudentDetailsError: function () {
+        this.showToastError = true;
+        setTimeout(() => $("#student-detail-error").toast("show"), 0);
+      }
     },
     beforeMount() {
       this.setInitialCareer();
       $('[data-toggle="tooltip"]').tooltip();
+      $(".toast").toast();
     }
   };
 </script>
