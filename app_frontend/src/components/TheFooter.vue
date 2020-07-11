@@ -70,15 +70,15 @@
     margin-bottom: 0;
   }
 
-  ul {
+  .footer ul {
     list-style: none;
   }
 
-  a {
+  .footer a {
     color: white;
   }
 
-  a:hover {
+  .footer a:hover {
     color: white;
     text-decoration: none;
   }
