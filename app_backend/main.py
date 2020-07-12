@@ -1,6 +1,6 @@
 import json
 
-from flask import render_template, request, send_file
+from flask import render_template, request, send_file, redirect
 from flask_cors import cross_origin
 
 from app import create_app
@@ -45,6 +45,11 @@ def generate_documentation():
     response.headers["x-suggested-filename"] = zip_filename
     response.headers["Access-Control-Expose-Headers"] = 'x-suggested-filename'
     return response
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return redirect('/')
 
 
 if __name__ == "__main__":
