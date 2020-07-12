@@ -65,6 +65,27 @@
       display: inline-block;
       float: none;
     }
+
+    .color-indicator-container {
+      width: 20px;
+      height: 20px;
+      border-radius: 2px;
+    }
+
+    .color-indicator-container.approved {
+      background-color: #008000;
+      color: #008000;
+    }
+
+    .color-indicator-container.registered {
+      background-color: #fcba03;
+      color: #fcba03;
+    }
+
+    .color-indicator-container.special_case {
+      background-color: #008080;
+      color: #008080;
+    }
   </style>
 </head>
 
@@ -86,8 +107,19 @@
       </div>
     {% endfor %}
   </div>
-
 {% endfor %}
+
+<div class="container-fluid" style="margin-top: 30px">
+  <div class="row">
+    <p>Materias aprobadas <span class="color-indicator-container approved">mm</span></p>
+  </div>
+  <div class="row">
+    <p>Materias Inscritas <span class="color-indicator-container registered">mm</span></p>
+  </div>
+  <div class="row">
+    Materias para caso especial <span class="color-indicator-container special_case">mm</span>
+  </div>
+</div>
 
 </body>
 
