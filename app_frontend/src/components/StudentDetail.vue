@@ -125,10 +125,10 @@
         this.disableEditCareerDirector = !this.disableEditCareerDirector;
       },
       onConfirmStudentDetails: function () {
-        const isValidName = this.student.name.trim() !== null && this.student.name.trim() !== '';
-        const isValidCode = this.student.code.trim() !== null && this.student.code.trim() !== '';
-        const isValidDni = this.student.dni.trim() !== null && this.student.dni.trim() !== '';
-        const isValidPhone = this.student.phone.trim() !== null && this.student.phone.trim() !== '';
+        const isValidName = this.student.name !== null && this.student.name.trim() !== '';
+        const isValidCode = this.student.code !== null && this.student.code.trim() !== '';
+        const isValidDni = this.student.dni !== null && this.student.dni.trim() !== '';
+        const isValidPhone = this.student.phone !== null && this.student.phone.trim() !== '';
 
         if (isValidName && isValidCode && isValidDni && isValidPhone) {
           this.confirmStudentDetails();

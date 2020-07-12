@@ -167,7 +167,7 @@
   };
 </script>
 
-<style>
+<style scoped>
   .class-row::before,
   .class-row::after {
     content: "";

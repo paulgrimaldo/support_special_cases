@@ -30,7 +30,6 @@
         <img src="../assets/student_detail.png" alt="Student details" class="description-img">
       </div>
     </article>
-
     <article class="row mt-5 align-items-center">
       <div class="col-md-7">
         <img src="../assets/classes_selector.png" alt="Classes Selector" class="description-img">
@@ -44,7 +43,6 @@
         <p>Cada tipo de materia (Aprobada,Inscrita,Caso especial) puede seleccionarse con un color diferente</p>
       </div>
     </article>
-
     <article class="row mt-5 align-items-center">
       <div class="col-md-5">
         <h2>Selector de grupos</h2>
@@ -56,7 +54,6 @@
         <img src="../assets/groups_selector.png" alt="Groups Selector" class="description-img">
       </div>
     </article>
-
     <article class="row mt-5 align-items-center">
       <div class="col-md-7">
         <img src="../assets/docs_generated.png" alt="Docs Generated" class="description-img">
@@ -74,8 +71,8 @@
       <h2 style="width: 100%" class="text-center">
         Desarrollado por el equipo Support
       </h2>
-      <div class="col-lg-4 col-md-2 col-sm-12 d-flex align-items-stretch  mt-4">
-        <div class="shadow card h-100" style="width: 18rem;">
+      <div class="col-lg-4 col-md-6 col-sm-6 d-flex align-items-stretch mt-4">
+        <div class="shadow card h-100" style="width: 18rem; margin: 0 auto">
           <img src="../assets/paul_grimaldo.jpg" class="card-img-top" alt="Paul Grimaldo">
           <div class="card-body">
             <h5 class="card-title">Paul Grimaldo</h5>
@@ -85,8 +82,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-2 col-sm-12 d-flex align-items-stretch mt-4">
-        <div class="shadow card h-100" style="width: 18rem;">
+      <div class="col-lg-4 col-md-6 col-sm-6 d-flex align-items-stretch mt-4">
+        <div class="shadow card h-100" style="width: 18rem; margin: 0 auto">
           <img src="../assets/ronaldo_rivero.jpg" class="card-img-top" alt="Ronaldo Rivero">
           <div class="card-body">
             <h5 class="card-title">Ronaldo Rivero</h5>
@@ -96,8 +93,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-2 col-sm-12 d-flex align-items-stretch mt-4">
-        <div class="shadow card h-100" style="width: 18rem;">
+      <div class="col-lg-4 col-md-6 col-sm-6 d-flex align-items-stretch mt-4">
+        <div class="shadow card h-100" style="width: 18rem; margin: 0 auto">
           <img src="../assets/jhafeth_cadima.jpg" class="card-img-top" alt="Jhafeth Cadima">
           <div class="card-body">
             <h5 class="card-title">Jhafeth Cadima</h5>
@@ -107,9 +104,8 @@
           </div>
         </div>
       </div>
-
-      <div class="col-lg-4 col-md-2 col-sm-12 d-flex align-items-stretch mt-4">
-        <div class="shadow card h-100" style="width: 18rem;">
+      <div class="col-lg-4 col-md-6 col-sm-6 d-flex align-items-stretch mt-4">
+        <div class="shadow card h-100" style="width: 18rem; margin: 0 auto">
           <img src="../assets/team_support.jpg" class="card-img-top" alt="Equipo Support">
           <div class="card-body">
             <h5 class="card-title">Equipo support</h5>
