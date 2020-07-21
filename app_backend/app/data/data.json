@@ -400,16 +400,6 @@
         ],
         "semester5": [
           {
-            "name": "Organización y métodos",
-            "initials": "ADM330",
-            "elective": false
-          },
-          {
-            "name": "Economía para la gestión",
-            "initials": "ECO300",
-            "elective": false
-          },
-          {
             "name": "Estructuras de datos II",
             "initials": "INF310",
             "elective": false
@@ -417,6 +407,16 @@
           {
             "name": "Base de datos I",
             "initials": "INF312",
+            "elective": false
+          },
+          {
+            "name": "Prog. Lógica y funcional",
+            "initials": "INF318",
+            "elective": false
+          },
+          {
+            "name": "Lenguajes Formales",
+            "initials": "INF319",
             "elective": false
           },
           {
@@ -437,8 +437,8 @@
         ],
         "semester6": [
           {
-            "name": "Finanzas para la empresa",
-            "initials": "ADM320",
+            "name": "Base de datos II",
+            "initials": "INF322",
             "elective": false
           },
           {
@@ -447,13 +447,13 @@
             "elective": false
           },
           {
-            "name": "Sistemas de información",
-            "initials": "INF342",
+            "name": "Compiladores",
+            "initials": "INF329",
             "elective": false
           },
           {
-            "name": "Base de datos II",
-            "initials": "INF322",
+            "name": "Sistemas de información I",
+            "initials": "INF342",
             "elective": false
           },
           {
@@ -474,23 +474,23 @@
         ],
         "semester7": [
           {
-            "name": "Sistemas operativos II",
-            "initials": "INF413",
-            "elective": false
-          },
-          {
             "name": "Sistemas de información II",
             "initials": "INF412",
             "elective": false
           },
           {
-            "name": "Redes I",
-            "initials": "INF433",
+            "name": "Sistemas operativos II",
+            "initials": "INF413",
             "elective": false
           },
           {
-            "name": "Sistemas para el soporte a la toma de decisiones",
-            "initials": "INF432",
+            "name": "Inteligencia artificial",
+            "initials": "INF418",
+            "elective": false
+          },
+          {
+            "name": "Redes I",
+            "initials": "INF433",
             "elective": false
           },
           {
@@ -526,13 +526,13 @@
             "elective": false
           },
           {
-            "name": "Sistemas de información geográfica",
-            "initials": "INF442",
+            "name": "Sistemas expertos",
+            "initials": "INF28",
             "elective": false
           },
           {
-            "name": "Auditoria informática",
-            "initials": "INF462",
+            "name": "Sistemas de información geográfica",
+            "initials": "INF442",
             "elective": false
           },
           {
@@ -636,13 +636,8 @@
             "elective": false
           },
           {
-            "name": "Teoría de campos",
-            "initials": "ELT241",
-            "elective": false
-          },
-          {
-            "name": "Adminsitración",
-            "initials": "ADM100",
+            "name": "Arquitectura de Computadoras",
+            "initials": "INF211",
             "elective": false
           },
           {
@@ -651,8 +646,13 @@
             "elective": false
           },
           {
-            "name": "Arquitectura de Computadoras",
-            "initials": "INF211",
+            "name": "Análisis de circuitos",
+            "initials": "RDS210",
+            "elective": false
+          },
+          {
+            "name": "Teoría de campos",
+            "initials": "ELT241",
             "elective": false
           }
         ],
@@ -663,11 +663,6 @@
             "elective": false
           },
           {
-            "name": "Análisis de circuitos electrónicos",
-            "initials": "RDS220",
-            "elective": false
-          },
-          {
             "name": "Programación Ensamblador",
             "initials": "INF221",
             "elective": false
@@ -675,6 +670,11 @@
           {
             "name": "Probabilidades y Estadistica I",
             "initials": "MAT202",
+            "elective": false
+          },
+          {
+            "name": "Análisis de circuitos electrónicos",
+            "initials": "RDS220",
             "elective": false
           },
           {
@@ -695,11 +695,6 @@
             "elective": false
           },
           {
-            "name": "Electronica aplicada a redes",
-            "initials": "RDS310",
-            "elective": false
-          },
-          {
             "name": "Base de datos I",
             "initials": "INF312",
             "elective": false
@@ -707,6 +702,11 @@
           {
             "name": "Probabilidades y estadística II",
             "initials": "MAT302",
+            "elective": false
+          },
+          {
+            "name": "Electronica aplicada a redes",
+            "initials": "RDS310",
             "elective": false
           },
           {
@@ -727,23 +727,23 @@
             "elective": false
           },
           {
-            "name": "Sistemas operativos I",
-            "initials": "INF323",
-            "elective": false
-          },
-          {
-            "name": "Interpretación de sistemas y señales",
-            "initials": "RDS320",
-            "elective": false
-          },
-          {
             "name": "Base de datos II",
             "initials": "INF322",
             "elective": false
           },
           {
+            "name": "Sistemas operativos I",
+            "initials": "INF323",
+            "elective": false
+          },
+          {
             "name": "Investigación operativa I",
             "initials": "MAT329",
+            "elective": false
+          },
+          {
+            "name": "Interpretación de sistemas y señales",
+            "initials": "RDS320",
             "elective": false
           },
           {
@@ -759,13 +759,18 @@
         ],
         "semester7": [
           {
+            "name": "Sistemas de comunicación I",
+            "initials": "ELT374",
+            "elective": false
+          },
+          {
             "name": "Sistemas operativos II",
             "initials": "INF413",
             "elective": false
           },
           {
-            "name": "Sistemas de comunicación I",
-            "initials": "ELT374",
+            "name": "Investigación operativa II",
+            "initials": "MAT419",
             "elective": false
           },
           {
@@ -774,13 +779,8 @@
             "elective": false
           },
           {
-            "name": "Aplicaciones con microprocesadores",
+            "name": "Apps con microprocesadores",
             "initials": "RDS410",
-            "elective": false
-          },
-          {
-            "name": "Investigación operativa II",
-            "initials": "MAT419",
             "elective": false
           },
           {
@@ -806,13 +806,13 @@
             "elective": false
           },
           {
-            "name": "Redes II",
-            "initials": "INF423",
+            "name": "Legislación en redes y comunicaciones",
+            "initials": "RDS429",
             "elective": false
           },
           {
-            "name": "Legislación en redes y comunicaciones",
-            "initials": "RDS429",
+            "name": "Redes II",
+            "initials": "INF423",
             "elective": false
           },
           {
@@ -838,13 +838,13 @@
             "elective": false
           },
           {
-            "name": "Gestión y administración de redes",
-            "initials": "RDS511",
+            "name": "Tecnología Web",
+            "initials": "INF513",
             "elective": false
           },
           {
-            "name": "Tecnología Web",
-            "initials": "INF513",
+            "name": "Gestión y administración de redes",
+            "initials": "RDS511",
             "elective": false
           },
           {
