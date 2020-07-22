@@ -28,7 +28,7 @@ def get_careers():
 def generate_documentation():
     parsed_request = request.get_json()
 
-    print(str(parsed_request))
+    app.logger.info(str(parsed_request))
 
     special_case_data = SpecialCaseData(parsed_request)
     documents_service_facade = DocumentServiceFacade(special_case_data)
