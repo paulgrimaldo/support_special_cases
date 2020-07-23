@@ -8,10 +8,12 @@
   </title>
 
   <!-- Bootstrap core CSS -->
-  {#  <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css', _external=True) }}" rel="stylesheet"/>#}
   {#
-     NOTA ACLARATORIA:
-     Para este template tuve que usar boostrap 3.3.7 por que wkhtmltopdf no funciona con flexbox de boostrap 4.
+  <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css', _external=True) }}" rel="stylesheet"/>
+  #}
+  {#
+  NOTA ACLARATORIA:
+  Para este template tuve que usar boostrap 3.3.7 por que wkhtmltopdf no funciona con flexbox de boostrap 4.
   #}
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -33,7 +35,7 @@
 
     .class-card {
       width: 12.5rem;
-      max-height: 140px !important;
+      height: 120px !important;
       background-clip: border-box;
       border: 1px solid rgba(0, 0, 0, 0.125);
       border-radius: 0.25rem;
@@ -86,6 +88,16 @@
       background-color: #008080;
       color: #008080;
     }
+
+    .classes-indicators {
+      margin-left: 20px;
+    }
+
+    .classes-indicators p {
+      margin-top: 3px;
+      margin-bottom: 0;
+      padding: 0;
+    }
   </style>
 </head>
 
@@ -95,30 +107,31 @@
   Malla curricular: {{ student.name }}, Reg: {{ student.code }}
 </h1>
 
-{% for semester_classes in classes.values() %}
-
-  <div class="row text-center">
+<div style="margin-left: 20px">
+  {% for semester_classes in classes.values() %}
+  <div class="row">
     {% for class_data in semester_classes %}
-      <div class="class-card col-xs-1 {% if "type" in class_data %} {{ class_data["type"] }} {% endif %}">
-        <div class="card-body ">
-          <h5 class="card-title class-title">{{ class_data.name }}</h5>
-          <p class="card-text class-initials">{{ class_data.initials }}</p>
-        </div>
+    <div
+      class="class-card text-center col-xs-1 {% if 'type' in class_data %} {{ class_data['type'] }} {% endif %}">
+      <div class="card-body ">
+        <h5 class="card-title class-title">{{ class_data.name }}</h5>
+        <p class="card-text class-initials">{{ class_data.initials }}</p>
+        {% if class_data["elective"] %}
+        <small><i>Electiva</i></small>
+        {% else %}
+        <small><i></i></small>
+        {% endif%}
       </div>
+    </div>
     {% endfor %}
   </div>
-{% endfor %}
+  {% endfor %}
+</div>
 
-<div class="container-fluid" style="margin-top: 30px">
-  <div class="row">
-    <p>Materias aprobadas <span class="color-indicator-container approved">mm</span></p>
-  </div>
-  <div class="row">
-    <p>Materias Inscritas <span class="color-indicator-container registered">mm</span></p>
-  </div>
-  <div class="row">
-    Materias para caso especial <span class="color-indicator-container special_case">mm</span>
-  </div>
+<div class="classes-indicators">
+  <p>Materias aprobadas <span class="color-indicator-container approved">mm</span></p>
+  <p>Materias Inscritas <span class="color-indicator-container registered">mm</span></p>
+  <p>Materias para caso especial <span class="color-indicator-container special_case">mm</span></p>
 </div>
 
 </body>

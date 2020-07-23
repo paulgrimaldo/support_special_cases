@@ -7,13 +7,13 @@
       "classes": {
         "semester1": [
           {
-            "name": "Introducción a la informatica",
-            "initials": "INF110",
+            "name": "Física I",
+            "initials": "FIS100",
             "elective": false
           },
           {
-            "name": "Física I",
-            "initials": "FIS100",
+            "name": "Introducción a la informática",
+            "initials": "INF110",
             "elective": false
           },
           {
@@ -22,25 +22,25 @@
             "elective": false
           },
           {
-            "name": "Calculo I",
-            "initials": "MAT101",
+            "name": "Inglés Técnico I",
+            "initials": "LIN100",
             "elective": false
           },
           {
-            "name": "Ingles Técnico I",
-            "initials": "LIN100",
+            "name": "Calculo I",
+            "initials": "MAT101",
             "elective": false
           }
         ],
         "semester2": [
           {
-            "name": "Programación I",
-            "initials": "INF120",
+            "name": "Física II",
+            "initials": "FIS102",
             "elective": false
           },
           {
-            "name": "Física II",
-            "initials": "FIS102",
+            "name": "Programación I",
+            "initials": "INF120",
             "elective": false
           },
           {
@@ -49,44 +49,49 @@
             "elective": false
           },
           {
-            "name": "Calculo II",
-            "initials": "MAT102",
+            "name": "Inglés Técnico II",
+            "initials": "LIN101",
             "elective": false
           },
           {
-            "name": "Ingles Técnico II",
-            "initials": "LIN101",
+            "name": "Calculo II",
+            "initials": "MAT102",
             "elective": false
           }
         ],
         "semester3": [
-          {
-            "name": "Programación II",
-            "initials": "INF210",
-            "elective": false
-          },
           {
             "name": "Física III",
             "initials": "FIS200",
             "elective": false
           },
           {
-            "name": "Adminsitración",
-            "initials": "ADM100",
+            "name": "Programación II",
+            "initials": "INF210",
             "elective": false
           },
           {
-            "name": "Ecuaciones Diferenciales",
-            "initials": "MAT207",
+            "name": "Administración",
+            "initials": "ADM100",
             "elective": false
           },
           {
             "name": "Arquitectura de Computadoras",
             "initials": "INF211",
             "elective": false
+          },
+          {
+            "name": "Ecuaciones Diferenciales",
+            "initials": "MAT207",
+            "elective": false
           }
         ],
         "semester4": [
+          {
+            "name": "Probabilidades y Estadística I",
+            "initials": "MAT202",
+            "elective": false
+          },
           {
             "name": "Estructura de Datos I",
             "initials": "INF220",
@@ -103,11 +108,6 @@
             "elective": false
           },
           {
-            "name": "Probabilidades y Estadistica I",
-            "initials": "MAT202",
-            "elective": false
-          },
-          {
             "name": "Métodos Numéricos",
             "initials": "MAT205",
             "elective": false
@@ -115,13 +115,8 @@
         ],
         "semester5": [
           {
-            "name": "Organización y métodos",
-            "initials": "ADM330",
-            "elective": false
-          },
-          {
-            "name": "Economía para la gestión",
-            "initials": "ECO300",
+            "name": "Probabilidades y estadística II",
+            "initials": "MAT302",
             "elective": false
           },
           {
@@ -130,13 +125,18 @@
             "elective": false
           },
           {
-            "name": "Base de datos I",
-            "initials": "INF312",
+            "name": "Economía para la gestión",
+            "initials": "ECO300",
             "elective": false
           },
           {
-            "name": "Probabilidades y estadística II",
-            "initials": "MAT302",
+            "name": "Organización y métodos",
+            "initials": "ADM330",
+            "elective": false
+          },
+          {
+            "name": "Base de datos I",
+            "initials": "INF312",
             "elective": false
           },
           {
@@ -152,8 +152,8 @@
         ],
         "semester6": [
           {
-            "name": "Finanzas para la empresa",
-            "initials": "ADM320",
+            "name": "Investigación operativa I",
+            "initials": "MAT329",
             "elective": false
           },
           {
@@ -162,18 +162,18 @@
             "elective": false
           },
           {
-            "name": "Sistemas de información",
+            "name": "Finanzas para la empresa",
+            "initials": "ADM320",
+            "elective": false
+          },
+          {
+            "name": "Sistemas de información I",
             "initials": "INF342",
             "elective": false
           },
           {
             "name": "Base de datos II",
             "initials": "INF322",
-            "elective": false
-          },
-          {
-            "name": "Investigación operativa I",
-            "initials": "MAT329",
             "elective": false
           },
           {
@@ -189,8 +189,18 @@
         ],
         "semester7": [
           {
+            "name": "Investigación operativa II",
+            "initials": "MAT419",
+            "elective": false
+          },
+          {
             "name": "Sistemas operativos II",
             "initials": "INF413",
+            "elective": false
+          },
+          {
+            "name": "Sistemas para el soporte a la toma de decisiones",
+            "initials": "INF432",
             "elective": false
           },
           {
@@ -201,16 +211,6 @@
           {
             "name": "Redes I",
             "initials": "INF433",
-            "elective": false
-          },
-          {
-            "name": "Sistemas para el soporte a la toma de decisiones",
-            "initials": "INF432",
-            "elective": false
-          },
-          {
-            "name": "Investigación operativa II",
-            "initials": "MAT419",
             "elective": false
           },
           {
@@ -236,22 +236,22 @@
             "elective": false
           },
           {
-            "name": "Redes II",
-            "initials": "INF423",
-            "elective": false
-          },
-          {
             "name": "Sistemas de información geográfica",
             "initials": "INF442",
             "elective": false
           },
           {
-            "name": "Auditoria informática",
+            "name": "Auditoría informática",
             "initials": "INF462",
             "elective": false
           },
           {
-            "name": "Introducción a la macroeconomia",
+            "name": "Redes II",
+            "initials": "INF423",
+            "elective": false
+          },
+          {
+            "name": "Introducción a la macroeconomía",
             "initials": "ELC007",
             "elective": true
           },
@@ -292,13 +292,13 @@
       "classes": {
         "semester1": [
           {
-            "name": "Introducción a la informatica",
-            "initials": "INF110",
+            "name": "Física I",
+            "initials": "FIS100",
             "elective": false
           },
           {
-            "name": "Física I",
-            "initials": "FIS100",
+            "name": "Introducción a la informática",
+            "initials": "INF110",
             "elective": false
           },
           {
@@ -307,25 +307,25 @@
             "elective": false
           },
           {
-            "name": "Calculo I",
-            "initials": "MAT101",
+            "name": "Inglés Técnico I",
+            "initials": "LIN100",
             "elective": false
           },
           {
-            "name": "Ingles Técnico I",
-            "initials": "LIN100",
+            "name": "Calculo I",
+            "initials": "MAT101",
             "elective": false
           }
         ],
         "semester2": [
           {
-            "name": "Programación I",
-            "initials": "INF120",
+            "name": "Física II",
+            "initials": "FIS102",
             "elective": false
           },
           {
-            "name": "Física II",
-            "initials": "FIS102",
+            "name": "Programación I",
+            "initials": "INF120",
             "elective": false
           },
           {
@@ -334,44 +334,49 @@
             "elective": false
           },
           {
-            "name": "Calculo II",
-            "initials": "MAT102",
+            "name": "Inglés Técnico II",
+            "initials": "LIN101",
             "elective": false
           },
           {
-            "name": "Ingles Técnico II",
-            "initials": "LIN101",
+            "name": "Calculo II",
+            "initials": "MAT102",
             "elective": false
           }
         ],
         "semester3": [
-          {
-            "name": "Programación II",
-            "initials": "INF210",
-            "elective": false
-          },
           {
             "name": "Física III",
             "initials": "FIS200",
             "elective": false
           },
           {
-            "name": "Adminsitración",
-            "initials": "ADM100",
+            "name": "Programación II",
+            "initials": "INF210",
             "elective": false
           },
           {
-            "name": "Ecuaciones Diferenciales",
-            "initials": "MAT207",
+            "name": "Administración",
+            "initials": "ADM100",
             "elective": false
           },
           {
             "name": "Arquitectura de Computadoras",
             "initials": "INF211",
             "elective": false
+          },
+          {
+            "name": "Ecuaciones Diferenciales",
+            "initials": "MAT207",
+            "elective": false
           }
         ],
         "semester4": [
+          {
+            "name": "Probabilidades y Estadística I",
+            "initials": "MAT202",
+            "elective": false
+          },
           {
             "name": "Estructura de Datos I",
             "initials": "INF220",
@@ -388,17 +393,17 @@
             "elective": false
           },
           {
-            "name": "Probabilidades y Estadistica I",
-            "initials": "MAT202",
-            "elective": false
-          },
-          {
             "name": "Métodos Numéricos",
             "initials": "MAT205",
             "elective": false
           }
         ],
         "semester5": [
+          {
+            "name": "Probabilidades y estadística II",
+            "initials": "MAT302",
+            "elective": false
+          },
           {
             "name": "Estructuras de datos II",
             "initials": "INF310",
@@ -420,11 +425,6 @@
             "elective": false
           },
           {
-            "name": "Probabilidades y estadística II",
-            "initials": "MAT302",
-            "elective": false
-          },
-          {
             "name": "Modelado y simulación de sistemas",
             "initials": "ELC101",
             "elective": true
@@ -437,13 +437,18 @@
         ],
         "semester6": [
           {
-            "name": "Base de datos II",
-            "initials": "INF322",
+            "name": "Investigación operativa I",
+            "initials": "MAT329",
             "elective": false
           },
           {
             "name": "Sistemas operativos I",
             "initials": "INF323",
+            "elective": false
+          },
+          {
+            "name": "Base de datos II",
+            "initials": "INF322",
             "elective": false
           },
           {
@@ -454,11 +459,6 @@
           {
             "name": "Sistemas de información I",
             "initials": "INF342",
-            "elective": false
-          },
-          {
-            "name": "Investigación operativa I",
-            "initials": "MAT329",
             "elective": false
           },
           {
@@ -474,8 +474,8 @@
         ],
         "semester7": [
           {
-            "name": "Sistemas de información II",
-            "initials": "INF412",
+            "name": "Investigación operativa II",
+            "initials": "MAT419",
             "elective": false
           },
           {
@@ -494,8 +494,8 @@
             "elective": false
           },
           {
-            "name": "Investigación operativa II",
-            "initials": "MAT419",
+            "name": "Sistemas de información II",
+            "initials": "INF412",
             "elective": false
           },
           {
@@ -521,13 +521,13 @@
             "elective": false
           },
           {
-            "name": "Redes II",
-            "initials": "INF423",
+            "name": "Sistemas expertos",
+            "initials": "INF28",
             "elective": false
           },
           {
-            "name": "Sistemas expertos",
-            "initials": "INF28",
+            "name": "Redes II",
+            "initials": "INF423",
             "elective": false
           },
           {
@@ -577,13 +577,13 @@
       "classes": {
         "semester1": [
           {
-            "name": "Introducción a la informatica",
-            "initials": "INF110",
+            "name": "Física I",
+            "initials": "FIS100",
             "elective": false
           },
           {
-            "name": "Física I",
-            "initials": "FIS100",
+            "name": "Introducción a la informática",
+            "initials": "INF110",
             "elective": false
           },
           {
@@ -592,25 +592,25 @@
             "elective": false
           },
           {
-            "name": "Calculo I",
-            "initials": "MAT101",
+            "name": "Inglés Técnico I",
+            "initials": "LIN100",
             "elective": false
           },
           {
-            "name": "Ingles Técnico I",
-            "initials": "LIN100",
+            "name": "Calculo I",
+            "initials": "MAT101",
             "elective": false
           }
         ],
         "semester2": [
           {
-            "name": "Programación I",
-            "initials": "INF120",
+            "name": "Física II",
+            "initials": "FIS102",
             "elective": false
           },
           {
-            "name": "Física II",
-            "initials": "FIS102",
+            "name": "Programación I",
+            "initials": "INF120",
             "elective": false
           },
           {
@@ -619,17 +619,22 @@
             "elective": false
           },
           {
-            "name": "Calculo II",
-            "initials": "MAT102",
+            "name": "Inglés Técnico II",
+            "initials": "LIN101",
             "elective": false
           },
           {
-            "name": "Ingles Técnico II",
-            "initials": "LIN101",
+            "name": "Calculo II",
+            "initials": "MAT102",
             "elective": false
           }
         ],
         "semester3": [
+          {
+            "name": "Teoría de campos",
+            "initials": "ELT241",
+            "elective": false
+          },
           {
             "name": "Programación II",
             "initials": "INF210",
@@ -641,22 +646,22 @@
             "elective": false
           },
           {
-            "name": "Ecuaciones Diferenciales",
-            "initials": "MAT207",
-            "elective": false
-          },
-          {
             "name": "Análisis de circuitos",
             "initials": "RDS210",
             "elective": false
           },
           {
-            "name": "Teoría de campos",
-            "initials": "ELT241",
+            "name": "Ecuaciones Diferenciales",
+            "initials": "MAT207",
             "elective": false
           }
         ],
         "semester4": [
+          {
+            "name": "Probabilidades y Estadística I",
+            "initials": "MAT202",
+            "elective": false
+          },
           {
             "name": "Estructura de Datos I",
             "initials": "INF220",
@@ -665,11 +670,6 @@
           {
             "name": "Programación Ensamblador",
             "initials": "INF221",
-            "elective": false
-          },
-          {
-            "name": "Probabilidades y Estadistica I",
-            "initials": "MAT202",
             "elective": false
           },
           {
@@ -685,6 +685,11 @@
         ],
         "semester5": [
           {
+            "name": "Probabilidades y Estadística II",
+            "initials": "MAT302",
+            "elective": false
+          },
+          {
             "name": "Sistemas lógicos y digitales I",
             "initials": "ELT352",
             "elective": false
@@ -695,18 +700,13 @@
             "elective": false
           },
           {
+            "name": "Electrónica aplicada a redes",
+            "initials": "RDS310",
+            "elective": false
+          },
+          {
             "name": "Base de datos I",
             "initials": "INF312",
-            "elective": false
-          },
-          {
-            "name": "Probabilidades y estadística II",
-            "initials": "MAT302",
-            "elective": false
-          },
-          {
-            "name": "Electronica aplicada a redes",
-            "initials": "RDS310",
             "elective": false
           },
           {
@@ -722,13 +722,13 @@
         ],
         "semester6": [
           {
-            "name": "Sistemas lógicos y digitales II",
-            "initials": "ELT362",
+            "name": "Investigación operativa I",
+            "initials": "MAT329",
             "elective": false
           },
           {
-            "name": "Base de datos II",
-            "initials": "INF322",
+            "name": "Sistemas lógicos y digitales II",
+            "initials": "ELT362",
             "elective": false
           },
           {
@@ -737,13 +737,13 @@
             "elective": false
           },
           {
-            "name": "Investigación operativa I",
-            "initials": "MAT329",
+            "name": "Interpretación de sistemas y señales",
+            "initials": "RDS320",
             "elective": false
           },
           {
-            "name": "Interpretación de sistemas y señales",
-            "initials": "RDS320",
+            "name": "Base de datos II",
+            "initials": "INF322",
             "elective": false
           },
           {
@@ -759,6 +759,11 @@
         ],
         "semester7": [
           {
+            "name": "Investigación operativa II",
+            "initials": "MAT419",
+            "elective": false
+          },
+          {
             "name": "Sistemas de comunicación I",
             "initials": "ELT374",
             "elective": false
@@ -769,17 +774,12 @@
             "elective": false
           },
           {
-            "name": "Investigación operativa II",
-            "initials": "MAT419",
-            "elective": false
-          },
-          {
             "name": "Redes I",
             "initials": "INF433",
             "elective": false
           },
           {
-            "name": "Apps con microprocesadores",
+            "name": "Apps con micro procesadores",
             "initials": "RDS410",
             "elective": false
           },
@@ -789,7 +789,7 @@
             "elective": true
           },
           {
-            "name": "Lineas y transmisión de antes",
+            "name": "Líneas y transmisión de antes",
             "initials": "ELC206",
             "elective": true
           }
@@ -821,7 +821,7 @@
             "elective": false
           },
           {
-            "name": "Ténicas para presentación para ingeniería",
+            "name": "Técnicas para presentación para ingeniería",
             "initials": "ELC207",
             "elective": true
           },
@@ -848,7 +848,7 @@
             "elective": false
           },
           {
-            "name": "Redes inalambricas y comunicaciones móviles",
+            "name": "Redes inalámbricas y comunicaciones móviles",
             "initials": "RDS512",
             "elective": false
           },

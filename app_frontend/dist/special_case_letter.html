@@ -55,11 +55,11 @@
           </thead>
           <tbody>
           {% for class_data in special_case_classes %}
-            <tr>
-              <td>{{ class_data["name"] }}</td>
-              <td>{{ class_data["initials"] }}</td>
-              <td>{{ class_data["group"] }}</td>
-            </tr>
+          <tr>
+            <td>{{ class_data["name"] }}</td>
+            <td>{{ class_data["initials"] }}</td>
+            <td>{{ class_data["group"] }}</td>
+          </tr>
           {% endfor %}
           </tbody>
         </table>
@@ -69,9 +69,10 @@
         Sin otro particular, atte.
       </p>
       <div class="text-center mt-5">
-        <p><strong>Univ.</strong> {{ student.name }}</p>
-        <p><strong>Reg.</strong> {{ student.code }}</p>
-        <p><strong>CI.</strong> {{ student.dni }}</p>
+        <p><strong>Univ.: </strong>{{ student.name }}</p>
+        <p><strong>Reg.: </strong>{{ student.code }}</p>
+        <p><strong>CI.: </strong>{{ student.dni }}</p>
+        <p><strong>Celular: </strong>{{ student.phone }}</p>
       </div>
     </div>
   </div>
