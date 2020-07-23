@@ -46,7 +46,7 @@
       <!-- Classes cards -->
       <div class="container-fluid scrolling-wrapper">
         <div
-          class="row flex-row flex-nowrap class-row"
+          class="row flex-row flex-nowrap"
           v-for="(studentClasses, semesterKey) in orderedClasses"
           :key="semesterKey"
         >
@@ -61,6 +61,7 @@
             <div class="card-body">
               <h5 class="card-title class-title">{{studentClass.name}}</h5>
               <p class="card-text class-initials">{{studentClass.initials}}</p>
+              <small v-if="studentClass.elective"><i>Electiva</i></small>
             </div>
           </div>
         </div>
