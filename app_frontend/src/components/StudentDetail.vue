@@ -76,7 +76,7 @@
               class="form-control"
               id="career_director"
               name="career_director"
-              placeholder="Ing. Katime Esther Gutierrez Bruno"
+              placeholder="Ing. Jose Junior Villagomez Melgar"
             />
           </div>
           <div class="col-lg-2 col-md-2 col-sm-2 col-2">
