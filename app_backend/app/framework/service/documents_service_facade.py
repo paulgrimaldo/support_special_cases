@@ -20,13 +20,16 @@ class DocumentServiceFacade:
 
         academic_progress_pdf = pdf_service.create_academic_progress_pdf()
         letter_pdf = pdf_service.create_special_case_letter_pdf()
-        registration_form_pdf = pdf_service.create_registration_form_pdf()
+        # registration_form_pdf = pdf_service.create_registration_form_pdf()
 
         zipper = Zipper()
 
+        # zipper \
+        #     .add_file((ACADEMIC_PROGRESS_FILENAME, academic_progress_pdf)) \
+        #     .add_file((REGISTRATION_FORM_FILENAME, registration_form_pdf)) \
+        #     .add_file((SPECIAL_CASE_LETTER_FILENAME, letter_pdf))
         zipper \
             .add_file((ACADEMIC_PROGRESS_FILENAME, academic_progress_pdf)) \
-            .add_file((REGISTRATION_FORM_FILENAME, registration_form_pdf)) \
             .add_file((SPECIAL_CASE_LETTER_FILENAME, letter_pdf))
 
         return self.__generate_zip_filename(), zipper.get_zip_in_memory()

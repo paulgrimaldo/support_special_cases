@@ -106,6 +106,17 @@
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6 d-flex align-items-stretch mt-4">
         <div class="shadow card h-100" style="width: 18rem; margin: 0 auto">
+          <img src="../assets/alejandro_loma.jpg" class="card-img-top" alt="Alejandro Loma">
+          <div class="card-body">
+            <h5 class="card-title">Alejandro Loma</h5>
+            <p class="card-text">
+              Es intentando lo imposible como se realiza lo posible
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 d-flex align-items-stretch mt-4">
+        <div class="shadow card h-100" style="width: 18rem; margin: 0 auto">
           <img src="../assets/team_support.jpg" class="card-img-top" alt="Equipo Support">
           <div class="card-body">
             <h5 class="card-title">Equipo support</h5>
