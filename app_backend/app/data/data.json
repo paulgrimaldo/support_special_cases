@@ -3,7 +3,7 @@
     {
       "key": "systems",
       "name": "Ingeniería en Sistemas",
-      "director": "Ing. Jose Junior Villagomez Melgar",
+      "director": "Ing. Modesto Franklin Calderon",
       "classes": {
         "semester1": [
           {
@@ -288,7 +288,7 @@
     {
       "key": "informatics",
       "name": "Ingeniería Informática",
-      "director": "Ing. Modesto Franklin Calderon",
+      "director": "Ing. Shirley E. Perez Delgadillo",
       "classes": {
         "semester1": [
           {
@@ -573,7 +573,7 @@
     {
       "key": "network",
       "name": "Ingeniería en Redes y Telecomunicaciones",
-      "director": "Ing. Leonardo Vargas Peña",
+      "director": "Ing. Mauricio Christian Caballero Rua",
       "classes": {
         "semester1": [
           {
