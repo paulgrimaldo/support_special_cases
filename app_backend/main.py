@@ -37,7 +37,7 @@ def generate_documentation():
 
     response = send_file(
         in_memory_zip,
-        attachment_filename=zip_filename,
+        download_name=zip_filename,
         as_attachment=True,
         mimetype="application/zip"
     )
