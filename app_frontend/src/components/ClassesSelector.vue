@@ -100,15 +100,15 @@
             color: "#000000"
           },
           approved: {
-            backgroundColor: "#008000",
-            color: "#ffffff"
+            backgroundColor: "#FFFF00",
+            color: "#000000"
           },
           registered: {
-            backgroundColor: "#fcba03",
+            backgroundColor: "#008000",
             color: "#000000"
           },
           special_case: {
-            backgroundColor: "#008080",
+            backgroundColor: "#FF0000",
             color: "#ffffff"
           }
         },
@@ -204,18 +204,18 @@
   }
 
   .color-indicator-container.approved {
+    background-color: #FFFF00;
+    color: #FFFF00;
+  }
+
+  .color-indicator-container.registered {
     background-color: #008000;
     color: #008000;
   }
 
-  .color-indicator-container.registered {
-    background-color: #fcba03;
-    color: #fcba03;
-  }
-
   .color-indicator-container.special-case {
-    background-color: #008080;
-    color: #008080;
+    background-color: #FF0000;
+    color: #FF0000;
   }
 
   .scrolling-wrapper {
